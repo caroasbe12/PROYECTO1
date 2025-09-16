@@ -67,12 +67,7 @@ padding: 10px;
 }
 }
 /**Tablets **/
-@media (min-width: 768px) {
-  .columna {
-    width: 50%; /* En pantallas de 768px o más, la columna ocupa el 50% */
-    float: left; /* Para que las columnas se coloquen una al lado de la otra */
-  }
-}
+
 /**Escritorio **/
 @media (max-width: 767px) {
   .columna {
@@ -80,10 +75,10 @@ padding: 10px;
     float: none; /* Para evitar floats en móviles si se usa una estrategia Mobile First */
   }
 /**Orientación **/
-@media screenand (orientation: portrait) {
+@media screen and (orientation: portrait) {
 .elemento {width: 100%; }
 }
 
-@media screena n d (orientation: landscape) {
+@media screen and (orientation: landscape) {
 .elemento {width: 50%; }
 }
