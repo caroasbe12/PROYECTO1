@@ -9,7 +9,7 @@
         #desarrollo{scroll-margin-top:80px ;/*es para que cuando le de click no se coma el titulo sino para mostrarlo todo*/}
         #inicio{scroll-margin-top:80px ;/*es para que cuando le de click no se coma el titulo sino para mostrarlo todo*/}
         #diseño{scroll-margin-top:80px ;/*es para que cuando le de click no se coma el titulo sino para mostrarlo todo*/}
-        #sobre-nosotros{scroll-margin-top:80px ;/*es para que cuando le de click no se coma el titulo sino para mostrarlo todo*/}
+        #sobre-nosotros{scroll-margin-top:90px ;/*es para que cuando le de click no se coma el titulo sino para mostrarlo todo*/}
         nav ul { display: flex; list-style: none; }
         nav li { margin-left: 20px; }
         nav a { color: white; text-decoration: none; }
