@@ -57,3 +57,32 @@
 .contact-box a:hover {
     color: #005fa3; /* cambia de color al pasar el mouse */
 }
+
+/**Móviles **/
+@media screenan d (max-width: 768px) {
+.elemento {
+font-size: 14px;
+padding: 10px;
+}
+}
+/**Tablets **/
+@media (min-width: 768px) {
+  .columna {
+    width: 50%; /* En pantallas de 768px o más, la columna ocupa el 50% */
+    float: left; /* Para que las columnas se coloquen una al lado de la otra */
+  }
+}
+/**Escritorio **/
+@media (max-width: 767px) {
+  .columna {
+    width: 100%;
+    float: none; /* Para evitar floats en móviles si se usa una estrategia Mobile First */
+  }
+/**Orientación **/
+@media screenand (orientation: portrait) {
+.elemento {width: 100%; }
+}
+
+@media screena n d (orientation: landscape) {
+.elemento {width: 50%; }
+}
