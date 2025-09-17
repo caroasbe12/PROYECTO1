@@ -1,5 +1,4 @@
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+ * { margin: 0; padding: 0; box-sizing: border-box; }
         .body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
         .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
         header { background: #4f4e92; color: white; padding: 1rem 0; }
@@ -9,6 +8,7 @@
         #desarrollo{scroll-margin-top:80px ;/*es para que cuando le de click no se coma el titulo sino para mostrarlo todo*/}
         #inicio{scroll-margin-top:80px ;/*es para que cuando le de click no se coma el titulo sino para mostrarlo todo*/}
         #diseño{scroll-margin-top:80px ;/*es para que cuando le de click no se coma el titulo sino para mostrarlo todo*/}
+        #sobre-nosotros{scroll-margin-top:90px ;/*es para que cuando le de click no se coma el titulo sino para mostrarlo todo*/}
         nav ul { display: flex; list-style: none; }
         nav li { margin-left: 20px; }
         nav a { color: white; text-decoration: none; }
@@ -56,4 +56,28 @@
 
 .contact-box a:hover {
     color: #005fa3; /* cambia de color al pasar el mouse */
+}
+
+/**Móviles **/
+@media screenan d (max-width: 768px) {
+.elemento {
+font-size: 14px;
+padding: 10px;
+}
+}
+/**Tablets **/
+
+/**Escritorio **/
+@media (max-width: 767px) {
+  .columna {
+    width: 100%;
+    float: none; /* Para evitar floats en móviles si se usa una estrategia Mobile First */
+  }
+/**Orientación **/
+@media screen and (orientation: portrait) {
+.elemento {width: 100%; }
+}
+
+@media screen and (orientation: landscape) {
+.elemento {width: 50%; }
 }
